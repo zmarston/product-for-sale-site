@@ -16,6 +16,25 @@ body {
   margin-left: 200px;
 }
 
+.info-absolute {
+  position: absolute;
+  width: 800px;
+  margin-left: -10px;
+}
+
+.info {
+  position: relative;
+  margin-top: 680px;
+}
+
+p {
+  width: 600PX;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 20px;
+}
+
 h1 {
   position: absolute;
   font-family: 'Iceberg', cursive;
@@ -32,6 +51,7 @@ h2 {
   margin-top: 440px;
   margin-left: 120px;
 }
+
 
 table {
   position: absolute;
@@ -52,30 +72,48 @@ td:nth-child(1), td:nth-child(2){
 .gallery {
   position: absolute;
   margin-top: 800px;
-  margin-left: 250px;
-}
-
-.gallery-images img {
-  width: 200px;
-  float: left;
-}
-
-.gallery-images img:nth-child(4n+2) {
-  clear: both;
+  margin-left: 150px;
 }
 
 .gallery-images {
+  margin-top: 20px;
+}
+
+.gallery-images img {
+  height: 140px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.gallery-images img:nth-child(1n+0){
+  margin-right: 10px;
+}
+
+.gallery-images img:nth-child(4n+1) {
+  clear: both;
+}
+
+.gallery-container {
   position: relative;
-
-
 }
 
-.gallery-images h3 {
-
+.gallery-container h3 {
+  margin-left: 400px;
+  color: white;
+  letter-spacing: 10px;
 }
 
-.cf:after {
+.cf::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.gallery-images img:hover {
+  height: 300px;
+  margin-bottom: -160px;
+  margin-left: -100px;
+  margin-right: -100px;
+  position: relative;
+  z-index: 1;
 }
