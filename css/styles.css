@@ -52,6 +52,7 @@ td:nth-child(1), td:nth-child(2){
 .gallery {
   position: absolute;
   margin-top: 800px;
+  margin-left: 250px;
 }
 
 .gallery-images img {
@@ -64,6 +65,17 @@ td:nth-child(1), td:nth-child(2){
 }
 
 .gallery-images {
-  width: 1300px;
   position: relative;
+
+
+}
+
+.gallery-images h3 {
+
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
 }
