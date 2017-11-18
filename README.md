@@ -1,3 +1,9 @@
+# Product For Sale Site
+
+#### A website dedicated to showing a product that's for sale.
+
+#### By Zachary Marston
+
 |Term|Description|Implementation|
 |:-:|:-:|:--:|
 |border-box|Element's borders or padding is included in the elements width and height.|I added the value border-box to my table because I wanted the table width to include the border.|
@@ -10,3 +16,19 @@
 |clear-fix|Solution to removing the effects of floats on surrounding elements.|I used clearfix to fix my gallery after I used float on my picture gallery.|
 |positional selector|Used to specify one or more elements among a group of sibling elements.|I used a positional selector to style my navigation bar to display a line in between words. I also used a positional selector to make two separate rows of images in my gallery by selecting the forth img.|
 |selector combinator|Used to add more than one selector|I used selector combinators to specify what kind of elements inside a div I want to style.|
+
+## Setup
+* Clone this repository by running this command in your terminal while located in the desktop:
+* git clone https://github.com/zmarston/product-for-sale-site
+* Next enter the folder by entering this command:
+* cd product-for-sale-site
+* Then enter this into the terminal:
+* open index.html
+
+## Technologies Used
+* HTML
+* CSS
+
+## Legal
+Copyright (c) 2017 Zachary Marston.
+This software is licensed under the MIT license.
